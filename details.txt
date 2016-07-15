@@ -1,0 +1,16 @@
+SFT
+host: 75.126.149.11
+user: developer
+pass: FH6uiNmR
+dir: /home/bishopint/webapps/efcf
+
+MYSQL
+phpmyadmin: https://web436.webfaction.com/phpMyAdmin/
+db host: localhost
+db name: bishopint_dcrowd
+db user: bishopint_ef_cf
+db pass: FH6uiNmR
+
+WP ADMIN
+user: myextrafunds
+pass: U^^JWePpTjr^Wqh1y1

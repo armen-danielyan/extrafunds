@@ -108,7 +108,7 @@
     <div class="container">
         <div class="col-sm-12">
             <div class="col-sm-4 text-center">
-                <img src="images/foo-flag.png" class="img-responsive" alt="ff"></div>
+                <img src="<?php bloginfo( 'template_url' ) ?>/images/foo-flag.png" class="img-responsive" alt="ff"></div>
             <div class="col-sm-8 text-center">
                 <article class="foo-copyr">
                     2015-2016 ExtraFunds Capital, LLC and ExtraFunds, LLC. ALL Rights Reserved
@@ -116,13 +116,9 @@
             </div>
         </div>
     </div>
+
+    <?php wp_footer(); ?>
 </section>
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 </body>
 </html>

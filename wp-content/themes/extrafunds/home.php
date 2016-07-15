@@ -20,7 +20,8 @@
         <div class="search-section">
             <div class="col-sm-8 col-sm-offset-2 col-md-8 col-lg-8 ">
                 <div class="search-div">
-                    <input type="text" placeholder="Search For a Fundraiser"></div>
+                    <input type="text" placeholder="Search For a Fundraiser">
+                </div>
             </div>
         </div>
         <!-- search section end-->
@@ -52,7 +53,26 @@
         <div class="col-sm-4 col-md-4 col-lg-4 no-padding">
             <a href="#">
                 <div class="hover-plus-cont">
-                    <img src="images/1.png" class="img-responsive" alt="">
+                    <img src="<?php bloginfo( 'template_url' ) ?>/images/1.png" class="img-responsive" alt="">
+                    <div class="hover-plus-in">
+                        <div>
+                            <h2>+</h2>
+                            <h3>Lorem Ipsum</h3>
+                            <p class="under"></p>
+                            <article>
+                                It is a long established fact that a reader
+                                will be distracted by the readable content of a page when
+                                looking at its layout. The point of using Lorem Ipsum
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4 no-padding">
+            <a href="#">
+                <div class="hover-plus-cont">
+                    <img src="<?php bloginfo( 'template_url' ) ?>/images/2.png" class="img-responsive" alt="">
                     <div class="hover-plus-in">
                         <div>
                             <h2>+</h2>
@@ -72,27 +92,7 @@
         <div class="col-sm-4 col-md-4 col-lg-4 no-padding">
             <a href="#">
                 <div class="hover-plus-cont">
-                    <img src="images/2.png" class="img-responsive" alt="">
-                    <div class="hover-plus-in">
-                        <div>
-                            <h2>+</h2>
-                            <h3>Lorem Ipsum</h3>
-                            <p class="under"></p>
-                            <article>
-                                It is a long established fact that a reader
-                                will be distracted by the readable content of a page when
-                                looking at its layout. The point of using Lorem Ipsum
-                            </article>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="col-sm-4 col-md-4 col-lg-4 no-padding">
-            <a href="#">
-                <div class="hover-plus-cont">
-                    <img src="images/3.png" class="img-responsive" alt="">
+                    <img src="<?php bloginfo( 'template_url' ) ?>/images/3.png" class="img-responsive" alt="">
                     <div class="hover-plus-in">
                         <div>
                             <h2>+</h2>
@@ -123,27 +123,27 @@
         <p class="under-b"></p>
         <div class="col-sm-12 img-12">
             <div class="col-sm-6 col-md-2">
-                <img src="images/6/1.png" class="img-responsive" alt="">
+                <img src="<?php bloginfo( 'template_url' ) ?>/images/6/1.png" class="img-responsive" alt="">
                 <p>Lorem Ipsum</p>
             </div>
             <div class="col-sm-6 col-md-2">
-                <img src="images/6/2.png" class="img-responsive" alt="">
+                <img src="<?php bloginfo( 'template_url' ) ?>/images/6/2.png" class="img-responsive" alt="">
                 <p>Lorem Ipsum</p>
             </div>
             <div class="col-sm-6 col-md-2">
-                <img src="images/6/3.png" class="img-responsive" alt="">
+                <img src="<?php bloginfo( 'template_url' ) ?>/images/6/3.png" class="img-responsive" alt="">
                 <p>Lorem Ipsum</p>
             </div>
             <div class="col-sm-6 col-md-2">
-                <img src="images/6/4.png" class="img-responsive" alt="">
+                <img src="<?php bloginfo( 'template_url' ) ?>/images/6/4.png" class="img-responsive" alt="">
                 <p>Lorem Ipsum</p>
             </div>
             <div class="col-sm-6 col-md-2">
-                <img src="images/6/5.png" class="img-responsive" alt="">
+                <img src="<?php bloginfo( 'template_url' ) ?>/images/6/5.png" class="img-responsive" alt="">
                 <p>Lorem Ipsum</p>
             </div>
             <div class="col-sm-6 col-md-2">
-                <img src="images/6/6.png" class="img-responsive" alt="">
+                <img src="<?php bloginfo( 'template_url' ) ?>/images/6/6.png" class="img-responsive" alt="">
                 <p>Lorem Ipsum</p>
             </div>
         </div>
@@ -156,7 +156,7 @@
         <div class="col-sm-4">
             <a href="#">
                 <div class="hover-plus-cont">
-                    <img src="images/trending/1.png" class="img-responsive" alt="">
+                    <img src="<?php bloginfo( 'template_url' ) ?>/images/trending/1.png" class="img-responsive" alt="">
                     <div class="hover-plus-in"><i class="fa fa-plus" aria-hidden="true"></i>
                     </div>
                 </div>
@@ -186,7 +186,7 @@
         <div class="col-sm-4">
             <a href="#">
                 <div class="hover-plus-cont">
-                    <img src="images/trending/2.png" class="img-responsive" alt="">
+                    <img src="<?php bloginfo( 'template_url' ) ?>/images/trending/2.png" class="img-responsive" alt="">
                     <div class="hover-plus-in">
                         <i class="fa fa-plus" aria-hidden="true"></i>
                     </div>
@@ -216,7 +216,7 @@
         <div class="col-sm-4">
             <a href="#">
                 <div class="hover-plus-cont">
-                    <img src="images/trending/3.png" class="img-responsive" alt="">
+                    <img src="<?php bloginfo( 'template_url' ) ?>/images/trending/3.png" class="img-responsive" alt="">
                     <div class="hover-plus-in">
                         <i class="fa fa-plus" aria-hidden="true"></i>
                     </div>

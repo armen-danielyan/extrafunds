@@ -1,14 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>extraFUNDS</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title></title>
+    
+    <?php wp_head(); ?>
 </head>
 <body>
 <section>
@@ -21,29 +18,20 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="logo-a" href="#">
-                    <img src="images/logo.png" class="img-responsive" alt="logo"></a>
+                    <img src="<?php bloginfo( 'template_url' ) ?>/images/logo.png" class="img-responsive" alt="logo"></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav main-nav-ul">
-                    <li class="active">
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">About us</a>
-                    </li>
-                    <li>
-                        <a href="#">Tools</a>
-                    </li>
-                    <li>
-                        <a href="#">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#">Media</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact us</a>
-                    </li>
-                </ul>
+                <?php
+                wp_nav_menu( array(
+                    'menu'              => 'header-menu',
+                    'theme_location'    => 'header-menu',
+                    'depth'             => 2,
+                    'container'         => '',
+                    'menu_class'        => 'nav navbar-nav main-nav-ul',
+                    'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                    'walker'            => new wp_bootstrap_navwalker())
+                );
+                ?>
                 <ul class="nav navbar-nav navbar-right" id="nav-right">
                     <li>
                         <a href="#">SIGN IN</a>
